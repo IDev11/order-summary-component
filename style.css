@@ -1,0 +1,132 @@
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw 300px;
+    background-color: hsl(225, 100%, 94%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.outer-frame {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 600px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#banner-photo {
+    border-radius: 10px 10px 0 0;
+    height: 33%;
+}
+
+.inner-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    width: 300px;
+}
+
+#music-icon {
+    padding-left: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+h3 {
+    font-size: 15px;
+    padding-right: 80px;
+    padding-left: 15px;
+    color: hsl(223, 47%, 23%);
+    line-height: 22px;
+}
+
+h2 {
+    color: hsl(223, 47%, 23%);
+    padding-top: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: -1px;
+    margin: 0px;
+}
+
+span {
+    color: hsl(224, 23%, 55%);
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 23px;
+    font-size: 16px;
+    font-weight: 490;
+    margin: 0px;
+}
+
+#proceed {
+    margin-top: 35px;
+    width: 300px;
+    height: 40px;
+    border-radius: 7px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0px 11px 30px hsla(228, 50%, 60%, 0.912);
+    color: #fff;
+    border: none;
+}
+
+#cancel {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#change {
+    padding-right: 20px;
+    font-size: 13px;
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+}
+
+#change:hover {
+    text-decoration: none;
+    color: hsla(228, 34%, 56%, 0.912);
+}
+
+#proceed:hover {
+    background-color: hsla(228, 34%, 56%, 0.912);
+    cursor: pointer;
+}
+
+#cancel:hover {
+    color: rgb(72, 72, 72);
+}
+
+
+
