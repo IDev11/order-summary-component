@@ -58,7 +58,7 @@ h3 {
     line-height: 22px;
 }
 
-h2 {
+h1 {
     color: hsl(223, 47%, 23%);
     padding-top: 35px;
     font-size: 25px;
@@ -71,7 +71,7 @@ span {
     color: hsl(224, 23%, 55%);
 }
 
-p {
+#description {
     color: hsl(224, 23%, 55%);
     padding-top: 10px;
     padding-left: 25px;
